@@ -317,8 +317,8 @@ h2{
 	position: absolute;
 	width: 488px;
 	height: 592px;
-	left: calc(50% - 488px/2 + 332px);
-	top: 2880px;
+	left: calc(50% - 488px/2 + 372px);
+	top: 2900px;
 	bottom: 180px;
 	background: #FFFFFF;
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
