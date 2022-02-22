@@ -4,7 +4,7 @@
 }
 
 body{
-	width: 1920px;
+	width: 100%;
 }
 
 main{
@@ -271,9 +271,9 @@ h2{
 .redes-container {
 	width: 1280px;
 	height: 452px;
-	left: calc(50% - 1280px/2);
-	top: 2500px;
-	bottom: 250px;
+	left: 55%;
+	top: 305%;
+	bottom: 10%;
 	background: #5E24E5;
 	border-radius: 8px;
 }
@@ -328,8 +328,8 @@ h2{
 	position: absolute;
 	width: 488px;
 	height: 592px;
-	left: calc(50% - 488px/2 + 372px);
-	top: 2900px;
+	left: 55%;
+	top: 305%;
 	bottom: 180px;
 	background: #FFFFFF;
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
@@ -398,16 +398,12 @@ input {
 	color: #FFFFFF;
 	height: 38px;
 	width: 111px;
-	left: 983px;
-	top: 2464px;
 	padding: 10px;
 }
 
 .button-consultoria {
 	width: 150px;
 	height: 38px;
-	left: 983px;
-	top: 2159px;
 	border: 1px solid #5E24E5;
 	box-sizing: border-box;
 	border-radius: 100px;
@@ -424,7 +420,6 @@ input {
 }
 
 footer {
-	width: 1920px;
 	height: 80px;
 	left: 0px;
 	bottom: 0px;
