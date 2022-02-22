@@ -20,7 +20,7 @@
 
 
 		<p class="parrafoTitulo">Escuchamos atentamente las necesidades de tu negocio y tus clientes, elaboramos y ejecutamos un plan de acción para lograr los resultados que esperas.</p>
-		<a href="" class="botonReserva">Reservar</a>
+		<a href="#form" class="botonReserva">Reservar</a>
 	</div>
 
 	
@@ -91,7 +91,7 @@
 				<a href="" class="button-consultoria">Consultorías</a>
 			  <h5 class="card-title">Diseño de la Experiencia del cliente</h5>
 			  <p class="card-text">La experiencia del cliente (CX) es cómo se relaciona una empresa con sus clientes en todos los aspectos del recorrido de compra, desde el marketing hasta las ventas y el servicio al cliente pasando por cada punto intermedio. En gran parte, es la suma total de todas las interacciones que un cliente tiene con tu marca.</p><br>
-			  <a href="" class="button-agenda">Agendar  <img src="img/flecha.png" alt=""></a>
+			  <a href="#form" class="button-agenda">Agendar  <img src="img/flecha.png" alt=""></a>
 			</div>
 		  </div>
 		</div>
@@ -111,7 +111,7 @@
 			  <p class="card-text">Veremos como crear un plan de acción, estableciendo objetivos para el crecimiento de negocio.
 			<br>
 			Haremos seguimiento personalizado para optimizar procesos para que, al momento que tu negocio escale, los procesos no sean un problema.</p><br>
-			  <a href="" class="button-agenda">Agendar <img src="img/flecha.png" alt=""></a>
+			  <a href="#form" class="button-agenda">Agendar <img src="img/flecha.png" alt=""></a>
 			</div>
 		  </div>
 		</div>
@@ -140,28 +140,28 @@
 
 	</div>
 
-	<div class="form-container">
+	<div class="form-container" id="form">
 		<form action="send.php" method="post">
 			<label for="servicios">Servicios</label>
 			<div class="servicios">
-			<input type="checkbox" name="servicios[]" value="community">Community Manager</input>
-    		<input type="checkbox" name="servicios[]" value="diseño">Diseño Web en Wordpress</input>
-   			<input type="checkbox" name="servicios[]" value="redes">Publicidad en Redes Sociales</input>
-    		<input type="checkbox" name="servicios[]" value="negocio">Consultoría de Negocio</input>
-			<input type="checkbox" name="servicios[]" value="cliente">Consultoría en Experiencia del Cliente</input>
+			<input type="checkbox" name="servicios[]" value="community">Community Manager</input><br>
+    		<input type="checkbox" name="servicios[]" value="diseño">Diseño Web en Wordpress</input><br>
+   			<input type="checkbox" name="servicios[]" value="redes">Publicidad en Redes Sociales</input><br>
+    		<input type="checkbox" name="servicios[]" value="negocio">Consultoría de Negocio</input><br>
+			<input type="checkbox" name="servicios[]" value="cliente">Consultoría en Experiencia del Cliente</input><br>
 			<input type="checkbox" name="servicios[]" value="cliente">Diseño y creación de contenido para redes sociales</input><br>
 
 			</div>
 
 			<label for="name">Nombre Completo</label>
-			<input type="text" name="name">
+			<input type="text" class="input-text" name="name">
 
 			
 			<label for="email">E-mail</label>
-			<input type="email" name="E-mail" required>
+			<input type="email" class="input-text" name="E-mail" required>
 
 			<label for="instagram">Usuario de Instagram</label>
-			<input type="text" name="usuario"><br>
+			<input type="text" class="input-text" name="usuario"><br>
 
 			<input type="submit" class="button-enviar" value="Enviar">
 		</form>

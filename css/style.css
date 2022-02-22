@@ -309,8 +309,19 @@ h2{
 	padding-top: 48px;
 }
 
+
 .logos-redes ul li {
 	list-style-type: none;
+}
+
+
+.contacto-redes {
+	position: static;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	width: 250px;
+	padding-left: 94px;
 }
 
 .form-container {
@@ -344,17 +355,22 @@ input {
 	border: 1px solid #D1D5DB;
 	box-sizing: border-box;
 	border-radius: 6px;
-	display: flex;
-	width: 390px;
- }
+	margin-right: 10px;
+	width: 18px;
+	height: 18px;	
+}
+
+.input-text {
+	height: 48px;
+	width: 410px;
+	border: 1px solid #D1D5DB;
+}
 
 .button-enviar {
 	width: 162px;
 	height: 56px;
 	background: #5E24E5;
 	border-radius: 8px;
-	width: 111px;
-	height:50px;
 	left: calc(50% - 111px/2 + 201.5px);
 	font-family: SFProDisplay;
 	font-style: normal;
@@ -430,11 +446,3 @@ footer p {
 	margin-top: 90px;
 }
 
-.contacto-redes {
-	position: static;
-	justify-content: space-between;
-	display: flex;
-	flex-direction: row;
-	width: 250px;
-	padding-left: 80px;
-}
