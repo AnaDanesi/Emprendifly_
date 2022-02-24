@@ -5,6 +5,8 @@
 
 body{
 	width: 100%;
+	background-color: #2A0D6E;
+
 }
 
 main{
@@ -224,7 +226,7 @@ h2{
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 35px;
 	line-height: 104%;
 	display: flex;
 	align-items: center;
@@ -270,7 +272,7 @@ h2{
 }
 
 .redes-container {
-	width: 1280px;
+	max-width: 80vw;
 	height: 452px;
 	top: 305%;
 	bottom: 10%;
@@ -287,7 +289,7 @@ h2{
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 45px;
 	line-height: 72px;
 	display: flex;
 	align-items: center;
@@ -316,7 +318,6 @@ h2{
 
 
 .contacto-redes {
-	position: static;
 	justify-content: space-between;
 	display: flex;
 	flex-direction: row;
@@ -325,15 +326,14 @@ h2{
 }
 
 .form-container {
-	position: absolute;
 	width: 488px;
 	height: 592px;
-	left: 55%;
-	top: 305%;
+	margin-left: 45vw;
 	bottom: 180px;
 	background: #FFFFFF;
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
 	border-radius: 10px;
+	margin-top: -520px;
 }
 
 form {
@@ -424,6 +424,7 @@ footer {
 	left: 0px;
 	bottom: 0px;
 	background: #5E24E5;
+	width: 100vw;
 }
 
 footer p {
