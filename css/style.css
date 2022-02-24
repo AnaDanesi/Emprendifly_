@@ -195,6 +195,7 @@ h2{
 
 .card-img {
 	width: 630px;
+	height: 420px;
 	left: 321px;
 	top: 2136px;
 	border-radius: 8px;
@@ -232,8 +233,7 @@ h2{
 }
 
 .card-text {
-	width: 592px;
-	height: 105px;
+		height: 105px;
 	left: 983px;
 	top: 2331px;
 	font-family: SFProDisplay;
@@ -249,6 +249,7 @@ h2{
 }
 
 .card {
+	
 	border-style: none;
 	border-radius: 8px;
 }
@@ -271,7 +272,6 @@ h2{
 .redes-container {
 	width: 1280px;
 	height: 452px;
-	left: 55%;
 	top: 305%;
 	bottom: 10%;
 	background: #5E24E5;
@@ -441,3 +441,122 @@ footer p {
 	margin-top: 90px;
 }
 
+@media screen and (max-width: 737px) {	
+
+.card-img {
+	width: 100%;	
+	top: 2136px;
+	border-radius: 8px;
+}
+
+.text-container {
+	position: absolute;
+	width: 351px;
+	height: 442px;
+	left: 12px;
+	top: 2210px;
+}
+
+.card-container {
+	padding: 3%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.card-title {
+	height: 142px;
+	width: 318px;
+	left: 28px;
+	top: 2808px;
+	font-family: SFProDisplay;
+	letter-spacing: 0em;
+	text-align: left;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 33px;
+}
+
+.card-text {
+	font-family: SFProDisplay;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	height: 196px;
+	width: 319px;
+	left: 28px;
+	top: 2368px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+.card {
+	border-style: none;
+	border-radius: 8px;
+}
+
+
+
+.seccion-container {
+	position: static;
+	display: flex;
+	flex-direction: column;
+	}
+
+.redes-container {
+	width: 100vw;
+	height: 482px;
+	background: #5E24E5;
+	border-radius: 8px;
+}
+
+
+
+.form-container {
+	position: static;
+	align-self: center;
+	width: 452px;
+	height: 592px;
+	margin-top: -60px;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
+	border-radius: 10px;
+}
+
+form {
+	width: 350px;
+	margin: 0 auto;
+	display: flex;
+  	flex-direction: column;
+  	font-family: SFProDisplay;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: -0.025em;
+	color: #000000;
+	padding: 10px;
+}
+
+input {
+	border: 1px solid #D1D5DB;
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-right: 10px;
+	width: 18px;
+	height: 18px;	
+}
+
+.input-text {
+	height: 48px;
+	width: 320px;
+	border: 1px solid #D1D5DB;
+}
+
+}
