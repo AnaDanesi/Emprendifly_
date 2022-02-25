@@ -65,11 +65,13 @@ html {
 	margin-left: 40px;
 	margin-top: 40px;
 	position: absolute;
+	height: 85px;
 }
 @media (min-width:  1028px){
 	.logo {
 		margin-left: 220px;
 		margin-top: 20px;
+		height: 40px;
 }
 }
 h1{
