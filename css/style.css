@@ -278,20 +278,21 @@ h2{
 }
 
 .redes-container h2 {
-	width: 261px;
-	height: 56px;
-	padding-left: 77px;
-	padding-top: 48px;
-	bottom: 598px;
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 45px;
 	line-height: 72px;
-	display: flex;
-	align-items: center;
-	letter-spacing: -0.025em;
-	color: #FFFFFF;
+	padding-top: 0px;
+	margin-top: 30px;
+}
+
+@media (min-width:  1028px){
+.redes-container h2 {
+	text-align: left;
+	margin-left: 95px;
+
+}
 }
 
 .logos-redes {
@@ -301,11 +302,19 @@ h2{
 	font-size: 16px;
 	line-height: 72px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	letter-spacing: -0.025em;
 	color: #FFFFFF;
-	padding-left: 77px;
-	padding-top: 48px;
+	padding-top: 28px;
+}
+@media (min-width:  1028px){
+	.logos-redes {
+		padding-left: 77px;
+
+		justify-content: flex-start;
+
+}
 }
 
 
@@ -313,13 +322,28 @@ h2{
 	list-style-type: none;
 }
 
+.contenedorRedes{
+	display: flex;
+	justify-content: center;
+}
+@media (min-width:  1028px){	
+.contenedorRedes {
+		justify-content: flex-start;
 
+}
+}
 .contacto-redes {
 	justify-content: space-between;
 	display: flex;
 	flex-direction: row;
 	width: 250px;
-	padding-left: 94px;
+	padding-left: 0px;
+}
+@media (min-width:  1028px){	
+.contacto-redes {
+		padding-left: 94px;
+
+}
 }
 
 .form-container {
@@ -330,14 +354,8 @@ h2{
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
 	border-radius: 10px;
 	margin-top: 0px;
-}
-
-@media (min-width:  1028px){
-	.form-container {
-		margin-left: 45vw;
-		margin-top: -520px
-
-}
+	margin-left: 45vw;
+	margin-top: -520px
 }
 
 form {
@@ -509,11 +527,13 @@ footer p {
 .form-container {
 	position: static;
 	align-self: center;
-	width: 452px;
+	min-width: 90vw;
 	height: 592px;
 	background: #FFFFFF;
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
 	border-radius: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 form {
