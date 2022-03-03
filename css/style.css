@@ -35,10 +35,9 @@ html {
 @media (min-width:  1028px){
 	.imgHero {
 	margin: 0;
-	min-height: 100vh;
 	background-image: url('../img/hero.jpg');
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 625px;
 }
 }
 
@@ -52,13 +51,6 @@ html {
 	background: linear-gradient(90deg, #2A0D6E 0%, rgba(54, 23, 126, 0.75) 70.62%, #FFFFFF 100%);
 	mix-blend-mode: multiply;
 
-}
-@media (min-width:  1028px){
-	.imgHero:before {
-	height: 625px;
-	background: linear-gradient(90deg, #2A0D6E 0%, #301277 26.35%, rgba(59, 27, 133, 0.75) 54.48%, rgba(255, 255, 255, 0) 100%);
-	mix-blend-mode: multiply;
-}
 }
 
 .logo{
@@ -96,7 +88,31 @@ h1{
 
 }
 }
+.contenedorLinks{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 40px;
+	padding-top: 30px;
 
+}
+ul li {
+ list-style:none ;
+}
+.LinksImagen{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+}
+ul li a{
+	font-size: 20px;
+	font-family: SFprodisplay;
+	font-style: normal;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin-right: 20px;
+
+
+}
 
 .parrafoTitulo{
 		margin-top: 700px;
