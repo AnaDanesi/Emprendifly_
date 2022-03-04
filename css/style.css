@@ -211,11 +211,20 @@ h2{
 
 
 .card-img {
+	width: 90vw;
+	height: 520px;
+	left: 321px;
+	top: 2136px;
+	border-radius: 8px;
+}
+@media (min-width:  1028px){
+	.card-img {
 	width: 480px;
 	height: 420px;
 	left: 321px;
 	top: 2136px;
 	border-radius: 8px;
+}
 }
 
 .text-container {
@@ -259,9 +268,20 @@ h2{
 
 .card-body {
 	padding: 20px;
-	width: auto;
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+@media (min-width:  1028px){
+	.card-body {
+	padding: 20px;
+	width: auto;
+	align-items: flex-start;
 
+}
+}
 .card {
 	
 	border-style: none;
@@ -306,6 +326,7 @@ h2{
 .redes-container h2 {
 	text-align: left;
 	margin-left: 95px;
+	padding-top: 20px;
 
 }
 
@@ -333,8 +354,9 @@ h2{
 @media (min-width:  1028px){
 	.logos-redes {
 		padding-left: 77px;
-
 		justify-content: flex-start;
+		padding-top: 8px;
+		padding-bottom: 10px;
 
 }
 }
@@ -504,15 +526,14 @@ footer p {
 
 .card-title {
 	height: 50px;
-	width: 318px;
-	left: 28px;
+	width: 418px;
 	font-family: SFProDisplay;
 	letter-spacing: 0em;
-	text-align: left;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 33px;
+	margin-top: 20px;
 }
 
 .card-text {
@@ -524,7 +545,7 @@ footer p {
 	letter-spacing: 0em;
 	text-align: left;
 	height: 100px;
-	width: 380px;
+	width: 480px;
 	left: 28px;
 }
 
