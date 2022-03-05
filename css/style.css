@@ -37,7 +37,7 @@ html {
 	margin: 0;
 	background-image: url('../img/hero.jpg');
 	background-repeat: no-repeat;
-	height: 625px;
+	height: 100vh;
 }
 }
 
@@ -119,19 +119,18 @@ ul li a{
 		font-family: SFprodisplay;
 		color: #FFFFFF;
 		font-size: 47px;
-		line-height: 60px;
+		line-height: 90px;
 		font-weight: normal;
 		position: absolute;
 		text-align: center;
 }
 @media (min-width:  1028px){
 .parrafoTitulo {
-		margin-top: 330px;
-		font-size: 22.5px;
-		line-height: 30px;
+		margin-top: 350px;
+		font-size: 28px;
+		line-height: 40px;
 		margin-left: 20vw;
 		margin-right: 20vw;
-
 }
 }
 .botonReserva
@@ -139,20 +138,21 @@ ul li a{
 	font-family: SFprodisplay;
 	font-weight: 500;
 	background-color: #FFFFFF;
-	font-size: 45px;
+	font-size: 30px;
 	border-radius: 8px;
 	text-decoration: none;
-	padding: 30px 100px;
+	padding: 30px 80px;
 	color: #5E24E5;
 	position: absolute;
-	margin-top: 1050px;
+	margin-top: 1100px;
 }
 
 @media (min-width:  1028px){
 .botonReserva {
 	margin-top: 440px;
 	padding: 10px 35px;
-	font-size: 15px;
+	font-size: 20px;
+	margin-top: 550px;
 }
 }
 
@@ -165,6 +165,8 @@ ul li a{
 	mix-blend-mode: multiply;
 }
 }
+
+
 .Seccion{
 	background-color: #2A0D6E;
 	padding-bottom: 40px;
@@ -174,7 +176,7 @@ ul li a{
 h2{
 	font-family: SFprodisplay;
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 55px;
 	text-align: center;
 	color: #FFFFFF;
 	padding-top: 55px;
@@ -217,9 +219,12 @@ h2{
 	top: 2136px;
 	border-radius: 8px;
 }
-@media (min-width:  1028px){
+
+
+@media (min-width:  1023px){
+
 	.card-img {
-	width: 480px;
+	width: 580px;
 	height: 420px;
 	left: 321px;
 	top: 2136px;
@@ -253,37 +258,36 @@ h2{
 	display: flex;
 	align-items: center;
 	color: #5E24E5;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 .card-text {
-	
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 20px;
+	line-height: 1.2em;
 	color: #7B7B7B;
+	width: 520px;
 }
 
 .card-body {
 	padding: 20px;
-	width: 90vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 @media (min-width:  1028px){
 	.card-body {
-	padding: 20px;
-	width: auto;
 	align-items: flex-start;
+}
 
 }
-}
+
+
 .card {
-	
 	border-style: none;
 	border-radius: 8px;
 }
@@ -351,6 +355,7 @@ h2{
 	color: #FFFFFF;
 	padding-top: 28px;
 }
+
 @media (min-width:  1028px){
 	.logos-redes {
 		padding-left: 77px;
@@ -392,14 +397,14 @@ h2{
 
 .form-container {
 	width: 488px;
-	height: 592px;
+	height: 650px;
 	bottom: 180px;
 	background: #FFFFFF;
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
 	border-radius: 10px;
 	margin-top: 0px;
 	margin-left: 45vw;
-	margin-top: -520px
+	margin-top: -520px;
 }
 
 form {
@@ -410,8 +415,8 @@ form {
   	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
-	line-height: 30px;
+	font-size: 17px;
+	line-height: 35px;
 	letter-spacing: -0.025em;
 	color: #000000;
 	padding: 20px;
@@ -441,7 +446,7 @@ input {
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 20px;
 	text-align: center;
 	align-items: center;
 	letter-spacing: -0.025em;
@@ -458,17 +463,18 @@ input {
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 150%;
 	align-items: center;
 	color: #FFFFFF;
 	height: 38px;
-	width: 111px;
-	padding: 10px;
+	width: 115px;
+	padding:0.4%;
+	padding-left: 2.5%;
 }
 
 .button-consultoria {
-	width: 150px;
+	width: 180px;
 	height: 38px;
 	border: 1px solid #5E24E5;
 	box-sizing: border-box;
@@ -476,13 +482,13 @@ input {
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 150%;
 	color: #5E24E5;
-	padding: 1%;
-	margin-bottom: 2%;
-	padding-left: 3.5%;
-	padding-right: 3.5%;
+	padding: 0.4%;
+	text-align: center;
+	margin-bottom: 0.6%;
+
 }
 
 footer {
@@ -494,13 +500,13 @@ footer {
 }
 
 footer p {
-	height: 17px;
+	height: 20px;
 	left: 806px;
 	bottom: 31px;
 	font-family: SFProDisplay;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 25px;
 	line-height: 17px;
 	text-align: center;
 	color: #FFFFFF;
@@ -508,12 +514,11 @@ footer p {
 	margin-top: 90px;
 }
 
-@media screen and (max-width: 1300px) {	
+@media screen and (max-width: 1024px) {	
 
 .text-container {
 	position: absolute;
-	width: 8;
-	height: 442px;
+	height: 650px;
 	left: 12px;
 	}
 
@@ -525,37 +530,53 @@ footer p {
 }
 
 .card-title {
-	height: 50px;
-	width: 418px;
-	font-family: SFProDisplay;
-	letter-spacing: 0em;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 25px;
-	line-height: 33px;
-	margin-top: 20px;
+	height: 80px;
+	font-size:40px;
+	line-height: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	align-self: start;
 }
 
 .card-text {
 	font-family: SFProDisplay;
-	font-size: 20px;
+	font-size: 30px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 19px;
+	line-height: 40px;
 	letter-spacing: 0em;
 	text-align: left;
-	height: 100px;
-	width: 480px;
-	left: 28px;
+	left: 40px;
+	width: auto;
 }
 
 .card-body {
-	padding: 20px;
+	padding: 10%;
+	height: 650px;
+	width: 90vw;
 }
 
 .card {
 	border-style: none;
 	border-radius: 8px;
+}
+
+
+.button-agenda {
+	font-size: 30px;
+	color: #FFFFFF;
+	height: 70px;
+	width: 170px;
+	padding: 15px;
+	align-self: flex-start;
+}
+
+.button-consultoria {
+	width: 250px;
+	height: 60px;
+	font-size: 30px;
+	text-align: center;
+	align-self: flex-start;
 }
 
 
@@ -572,17 +593,37 @@ footer p {
 
 .redes-container h2 {
 	margin-top: 5%;
+	font-size: 60px;
 }
 
 .contenedorRedes {
 	margin-top: 6%;
 }
 
+.contacto-redes {
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	width: 350px;
+	padding-left: 0px;
+}
+
+.logos-redes {
+	font-size: 35px;
+	line-height: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.025em;
+	color: #FFFFFF;
+	padding-top: 28px;
+}
+
 .form-container {
 	position: static;
 	align-self: center;
-	min-width: 85vw;
-	height: 850px;
+	min-width: 92vw;
+	height: 1000px;
 	background: #FFFFFF;
 	box-shadow: 0px 16px 16px rgba(50, 50, 71, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.06);
 	border-radius: 10px;
@@ -592,10 +633,10 @@ footer p {
 }
 
 form {
-	width: 80vw;
-	padding-left: 20vw;
-	font-size: 20px;
-	line-height: 45px;
+	width: 85vw;
+	padding-left: 10%;
+	font-size: 30px;
+	line-height: 2em;
 	letter-spacing: -0.025em;
 	color: #000000;
 }
@@ -610,20 +651,26 @@ input {
 }
 
 .input-text {
-	height: 48px;
-	width: 45vw;
+	height: 60px;
+	width: 65vw;
 	border: 1px solid #D1D5DB;
 }
 
 
 .button-enviar {
-	font-size: 20px;
+	font-size: 30px;
+	height: 70px;
+	width: 170px;
 	padding: 1%;
 }
 
 
 .redes-container {
 	min-width: 100vw;
+}
+
+h2 {
+	font-size: 60px;
 }
 
 }
