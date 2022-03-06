@@ -57,7 +57,7 @@ html {
 	margin-left: 40px;
 	margin-top: 40px;
 	position: absolute;
-	height: 85px;
+	height: 65px;
 }
 @media (min-width:  1028px){
 	.logo {
@@ -91,9 +91,17 @@ h1{
 .contenedorLinks{
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 10px;
+	padding-top: 60px;
+
+}
+@media (min-width:  1028px){
+.contenedorLinks{
+	display: flex;
+	justify-content: flex-end;
 	margin-right: 40px;
 	padding-top: 30px;
-
+}
 }
 ul li {
  list-style:none ;
@@ -104,14 +112,17 @@ ul li {
 	flex-direction: row;
 }
 ul li a{
-	font-size: 20px;
+	font-size: 28px;
 	font-family: SFprodisplay;
 	font-style: normal;
 	font-weight: 600;
 	color: #FFFFFF;
 	margin-right: 20px;
-
-
+}
+@media (min-width:  1028px){
+ul li a{
+	font-size: 20px;
+}
 }
 
 .parrafoTitulo{
