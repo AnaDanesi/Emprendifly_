@@ -2,31 +2,27 @@
   padding: 0;
   margin: 0; 
 }
-
 body{
 	width: 100%;
 	background-color: #2A0D6E;
-
 }
-
 main{
 	background-color: #2A0D6E;
 }
-
 html {
   font-size: 62.5%;
-  box-sizing: border-box; }
-
- @font-face {
+  box-sizing: border-box; 
+}
+@font-face{
  	font-family: SFprodisplay;
  	src: url(../fonts/SFprodisplay.ttf);
  }
- a{
+a{
  	text-decoration: none;
  }
 .imgHero{
 	margin: 0;
-	height: 1300px;
+	height: 1200px;
 	background-image: url('../img/heroMobile.jpg');
 	background-repeat: no-repeat;
 	background-size: Cover;
@@ -38,21 +34,23 @@ html {
 	background-image: url('../img/hero.jpg');
 	background-repeat: no-repeat;
 	height: 100vh;
-}
-}
-
+}}
 .imgHero:before{
 	content: "";
 	width: 100%;
-	height: 1300px;
+	height: 1200px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background: linear-gradient(90deg, #2A0D6E 0%, rgba(54, 23, 126, 0.75) 70.62%, #FFFFFF 100%);
 	mix-blend-mode: multiply;
-
 }
-
+@media (min-width:  1028px){
+	.imgHero:before{
+	height: 100vh;
+	background: linear-gradient(90deg, #2A0D6E 0%, #301277 26.35%, rgba(59, 27, 133, 0.75) 54.48%, rgba(255, 255, 255, 0) 100%);
+	mix-blend-mode: multiply;
+}}
 .logo{
 	margin-left: 40px;
 	margin-top: 40px;
@@ -64,8 +62,7 @@ html {
 		margin-left: 220px;
 		margin-top: 20px;
 		height: 40px;
-}
-}
+}}
 h1{
 	font-family: SFprodisplay;
 	font-style: normal;
@@ -76,7 +73,6 @@ h1{
 	text-align: center;
 	margin-top: 320px;
 	position: absolute;
-
 }
 @media (min-width:  1028px){
 	h1 {
@@ -85,9 +81,7 @@ h1{
 	margin-top: 180px;
 	margin-left: 20vw;
 	margin-right: 20vw;
-
-}
-}
+}}
 .contenedorLinks{
 	display: flex;
 	justify-content: flex-end;
@@ -101,8 +95,7 @@ h1{
 	justify-content: flex-end;
 	margin-right: 40px;
 	padding-top: 30px;
-}
-}
+}}
 ul li {
  list-style:none ;
 }
@@ -119,18 +112,19 @@ ul li a{
 	color: #FFFFFF;
 	margin-right: 20px;
 }
+ul li a:hover{
+		color: #FFFFFF; 
+}
 @media (min-width:  1028px){
 ul li a{
 	font-size: 20px;
-}
-}
-
+}}
 .parrafoTitulo{
 		margin-top: 700px;
 		font-family: SFprodisplay;
 		color: #FFFFFF;
 		font-size: 47px;
-		line-height: 90px;
+		line-height: 60px;
 		font-weight: normal;
 		position: absolute;
 		text-align: center;
@@ -142,10 +136,8 @@ ul li a{
 		line-height: 40px;
 		margin-left: 20vw;
 		margin-right: 20vw;
-}
-}
-.botonReserva
-{	
+}}
+.botonReserva{	
 	font-family: SFprodisplay;
 	font-weight: 500;
 	background-color: #FFFFFF;
@@ -155,35 +147,21 @@ ul li a{
 	padding: 30px 80px;
 	color: #5E24E5;
 	position: absolute;
-	margin-top: 1100px;
+	margin-top: 1000px;
 }
-
 @media (min-width:  1028px){
 .botonReserva {
 	margin-top: 440px;
 	padding: 10px 35px;
 	font-size: 20px;
 	margin-top: 500px;
-}
-}
-
-
-@media (min-width:  1028px){
-	.imgHero:before {
-	min-height: 100vh;
-	max-height: 100vh;
-	background: linear-gradient(90deg, #2A0D6E 0%, #301277 26.35%, rgba(59, 27, 133, 0.75) 54.48%, rgba(255, 255, 255, 0) 100%);
-	mix-blend-mode: multiply;
-}
-}
-
-
+}}
+-------------------------------------------------
 .Seccion{
 	background-color: #2A0D6E;
 	padding-bottom: 40px;
 	font-size: 15px;
 }
-
 h2{
 	font-family: SFprodisplay;
 	font-weight: 600;
@@ -208,7 +186,6 @@ h2{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
 }
 .logoCards{
 	width: 80px;
@@ -221,8 +198,6 @@ h2{
 	text-align: center;
 	margin-top: 20px;
 }
-
-
 .card-img {
 	width: 90vw;
 	height: 520px;
@@ -230,8 +205,6 @@ h2{
 	top: 2136px;
 	border-radius: 8px;
 }
-
-
 @media (min-width:  1023px){
 
 	.card-img {
@@ -240,9 +213,7 @@ h2{
 	left: 321px;
 	top: 2136px;
 	border-radius: 8px;
-}
-}
-
+}}
 .text-container {
 	position: absolute;
 	width: 430px;
@@ -250,14 +221,12 @@ h2{
 	left: 321px;
 	top: 2136px;
 }
-
 .card-container {
 	padding: 3%;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 }
-
 .card-title {
 	width: 478px;
 	height: 100px;
@@ -271,7 +240,6 @@ h2{
 	color: #5E24E5;
 	margin-top: 2%;
 }
-
 .card-text {
 	font-family: SFProDisplay;
 	font-style: normal;
@@ -281,7 +249,6 @@ h2{
 	color: #7B7B7B;
 	width: 520px;
 }
-
 .card-body {
 	padding: 20px;
 	display: flex;
@@ -293,22 +260,15 @@ h2{
 @media (min-width:  1028px){
 	.card-body {
 	align-items: flex-start;
-}
-
-}
-
-
+}}
 .card {
 	border-style: none;
 	border-radius: 8px;
 }
-
-
-
+--------------------------------
 .seccion-container {
 	position: relative;
 	}
-
 .Seccion3 {
 	background-color: #2A0D6E;
 	display: flex;
@@ -316,7 +276,6 @@ h2{
 	flex-direction: row;
 	margin-top: 100px;
 }
-
 .redes-container {
 	max-width: 90vw;
 	height: 452px;
@@ -325,7 +284,6 @@ h2{
 	background: #5E24E5;
 	border-radius: 8px;
 }
-
 .redes-container h2 {
 	font-family: SFProDisplay;
 	font-style: normal;
@@ -335,23 +293,15 @@ h2{
 	padding-top: 0px;
 	margin-top: 30px;
 }
-
 @media (min-width:  1024px){
 .redes-container h2 {
 	text-align: left;
 	margin-left: 95px;
 	padding-top: 20px;
-
 }
-
-
 .redes-container {
 	max-width: 100vw;
-
-}
-
-}
-
+}}
 .logos-redes {
 	font-family: SFProDisplay;
 	font-style: normal;
@@ -365,22 +315,16 @@ h2{
 	color: #FFFFFF;
 	padding-top: 28px;
 }
-
 @media (min-width:  1028px){
 	.logos-redes {
 		padding-left: 77px;
 		justify-content: flex-start;
 		padding-top: 8px;
 		padding-bottom: 10px;
-
-}
-}
-
-
+}}
 .logos-redes ul li {
 	list-style-type: none;
 }
-
 .contenedorRedes{
 	display: flex;
 	justify-content: left;
@@ -388,9 +332,7 @@ h2{
 @media (min-width:  1028px){	
 .contenedorRedes {
 		justify-content: flex-start;
-
-}
-}
+}}
 .contacto-redes {
 	justify-content: space-between;
 	display: flex;
@@ -401,10 +343,7 @@ h2{
 @media (min-width:  1028px){	
 .contacto-redes {
 		padding-left: 94px;
-
-}
-}
-
+}}
 .form-container {
 	width: 488px;
 	height: 650px;
@@ -416,7 +355,6 @@ h2{
 	margin-left: 45vw;
 	margin-top: -544px;
 }
-
 form {
 	width: 450px;
 	margin: 0 auto;
@@ -431,7 +369,6 @@ form {
 	color: #000000;
 	padding: 20px;
 }
-
 input {
 	border: 1px solid #D1D5DB;
 	box-sizing: border-box;
@@ -440,13 +377,11 @@ input {
 	width: 18px;
 	height: 18px;	
 }
-
 .input-text {
 	height: 48px;
 	width: 410px;
 	border: 1px solid #D1D5DB;
 }
-
 .button-enviar {
 	width: 162px;
 	height: 56px;
@@ -464,9 +399,6 @@ input {
 	justify-content: center;
 	padding: 2%;
 }
-
-
-
 .button-agenda {
 	background: #5E24E5;
 	border-radius: 4px;
@@ -482,7 +414,6 @@ input {
 	padding:0.4%;
 	padding-left: 2.5%;
 }
-
 .button-consultoria {
 	width: 180px;
 	height: 38px;
@@ -498,17 +429,14 @@ input {
 	padding: 0.4%;
 	text-align: center;
 	margin-bottom: 0.6%;
-
 }
-
 footer {
 	height: 80px;
 	left: 0px;
 	bottom: 0px;
 	background: #5E24E5;
-	width: 100vw;
+	max-width: 100vw;
 }
-
 footer p {
 	height: 20px;
 	left: 806px;
@@ -523,22 +451,18 @@ footer p {
 	padding-top: 32px;
 	margin-top: 90px;
 }
-
 @media screen and (max-width: 1024px) {	
-
 .text-container {
 	position: absolute;
 	height: 650px;
 	left: 12px;
 	}
-
 .card-container {
 	padding: 3%;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 }
-
 .card-title {
 	height: 80px;
 	font-size:40px;
@@ -547,7 +471,6 @@ footer p {
 	margin-bottom: 30px;
 	align-self: start;
 }
-
 .card-text {
 	font-family: SFProDisplay;
 	font-size: 30px;
@@ -559,7 +482,6 @@ footer p {
 	left: 40px;
 	width: auto;
 }
-
 .card-body {
 	padding: 10%;
 	height: 650px;
@@ -570,8 +492,6 @@ footer p {
 	border-style: none;
 	border-radius: 8px;
 }
-
-
 .button-agenda {
 	font-size: 30px;
 	color: #FFFFFF;
@@ -580,7 +500,6 @@ footer p {
 	padding: 15px;
 	align-self: flex-start;
 }
-
 .button-consultoria {
 	width: 250px;
 	height: 60px;
@@ -588,39 +507,30 @@ footer p {
 	text-align: center;
 	align-self: flex-start;
 }
-
-
 .seccion-container {
 	position: static;
 	display: flex;
 	flex-direction: column;
-	}
-
+}
 .redes-container {
 	max-width: 100vw;
 	height: 650px;
 	padding-left: 15%;
 }
-
 .redes-container h2 {
 	margin-top: 5%;
 	font-size: 60px;
 	text-align: left;	
 }
-
-
 .contenedorRedes {
 	margin-top: 6%;
 }
-
 .contacto-redes {
 	justify-content: space-between;
 	display: flex;
 	flex-direction: row;
 	width: 350px;
-	
 }
-
 .logos-redes {
 	font-size: 35px;
 	line-height: 72px;
@@ -630,12 +540,10 @@ footer p {
 	letter-spacing: 0.025em;
 	color: #FFFFFF;
 	padding-top: 28px;
-	
 }
 .logos-redes ul {
 	padding-left: 0;
 }
-
 .form-container {
 	position: static;
 	align-self: center;
@@ -648,7 +556,6 @@ footer p {
 	margin-left: 0px;
 	padding-top: 30px;
 }
-
 form {
 	width: 85vw;
 	padding-left: 10%;
@@ -657,7 +564,6 @@ form {
 	letter-spacing: -0.025em;
 	color: #000000;
 }
-
 input {
 	border: 1px solid #D1D5DB;
 	box-sizing: border-box;
@@ -666,29 +572,22 @@ input {
 	width: 18px;
 	height: 20px;	
 }
-
 .input-text {
 	height: 60px;
 	width: 65vw;
 	border: 1px solid #D1D5DB;
 }
-
-
 .button-enviar {
 	font-size: 30px;
 	height: 70px;
 	width: 170px;
 	padding: 1%;
 }
-
-
 .redes-container {
 	min-width: 100vw;
 }
-
 h2 {
 	font-size: 60px;
-}
+}}
 
-}
 
